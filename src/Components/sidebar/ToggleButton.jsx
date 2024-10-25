@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function ToggleButton() {
+export default function ToggleButton({setOpen}) {
   return (
-    <div>
-      
-    </div>
+    <button onClick={()=> setOpen((prev) => !prev)}>
+      Button
+    </button>
   )
 }

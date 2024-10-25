@@ -1,9 +1,10 @@
 import { motion } from "framer-motion"
+import SideBar from "./sidebar/SideBar"
 
 export default function NavBar() {
   return (
     <div className='navbar'>
-        {/* side bar */}
+        <SideBar />
         <div className="wrapper">
             <motion.span
               initial={{opacity: 0, scale: 0.5}}

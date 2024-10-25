@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function Links() {
   return (
-    <div>
-      
-    </div>
+    <div className='links'> Links </div>
   )
 }
