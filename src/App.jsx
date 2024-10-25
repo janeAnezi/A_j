@@ -4,7 +4,9 @@ import "./app.scss"
 function App() {
   return (
     <>
-      <section>Hero</section>
+      <section>
+        
+      </section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax</section>
