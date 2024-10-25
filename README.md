@@ -5,3 +5,5 @@
 # Get Google fonts
 *** Google fonts from https://fonts.google.com/
 
+# Animation
+*** npm i framer-motion@10.16.4
