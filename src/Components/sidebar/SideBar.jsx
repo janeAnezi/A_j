@@ -8,7 +8,6 @@ export default function SideBar() {
 
   const variants = {
     open: {
-      width: "300px",  // Set the expanded width
       clipPath: "circle(1200px at 50px 50px)",
       transition: {
         type: "spring",
@@ -16,10 +15,9 @@ export default function SideBar() {
       },
     },
     closed: {
-      width: "60px",  // Set the collapsed width
       clipPath: "circle(30px at 50px 50px)",
       transition: {
-        delay: 0.3,
+        delay: 0.5,
         type: "spring",
         stiffness: 400,
         damping: 40,
@@ -31,12 +29,12 @@ export default function SideBar() {
     <motion.div
       className="sidebar"
       animate={open ? "open" : "closed"}
-      variants={variants}  // Attach the animation variants
+      variants={variants} 
     >
       <motion.div className="bg">
         <Links />
       </motion.div>
-      <ToggleButton setOpen={setOpen} /> {/* Toggle button to handle open/close */}
+      <ToggleButton setOpen={setOpen} />
     </motion.div>
   );
 }

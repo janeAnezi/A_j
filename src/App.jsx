@@ -5,18 +5,18 @@ import "./app.scss"
 function App() {
   return (
     <>
-      <section>
+      <section id="HomePage">
         <NavBar />
       </section>
-      <section>Parallax</section>
+      <section id="Services">Parallax</section>
       <section>Services</section>
-      <section>Parallax</section>
+      <section id="Portfolio">Parallax</section>
       <section>Portfolio1</section>
       <section>Portfolio2</section>
       <section>Portfolio3</section>
-      <section>contact</section> 
+      <section id="contact">contact</section> 
     </>
-  )
+  ) 
 }
 
 export default App
