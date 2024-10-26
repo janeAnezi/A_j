@@ -10,7 +10,7 @@ html {
     font-family: "Lora", serif;
 }
 body {
-    background-color: rgb(1, 1, 37);
+    background-color: #0c0c1d;
     color: lightgray;
 }
 a {
@@ -25,10 +25,10 @@ section {
 // ****** NavBar styles ******
 
 .navbar {
-    height: 100px;
+    // height: 100px;
 
     .wrapper {
-        max-width: 50%;
+        max-width: 900px;
         margin: auto;
         display: flex;
         align-items: center;
@@ -73,7 +73,7 @@ section {
         top: 0;
         left: 0;
         bottom: 0;
-        width: 300px;
+        width: 250px;
         background: white;
         position: fixed;
 
@@ -105,5 +105,33 @@ section {
         background-color: transparent;
         border: none;
         cursor: pointer;
+    }
+}
+
+// ****** Hero section styles ******
+.hero {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(180deg, #0c0c1d, #111132); 
+    position: relative;
+    // margin-left: 20%;
+    z-index: -1;
+
+
+    .wrapper {
+        width: 950px;
+        height: 100%;
+        margin: auto;
+       
+    }
+    .imageContainer {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+
+        img {
+            width: 950px;
+        }
     }
 }

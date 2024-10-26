@@ -25,12 +25,12 @@ export default function Links() {
     }
   }
 
-  let itemsLink = ["HomePage","Services","Portfolio","Contact",]
+  let itemsLink = ["HomePage","Services","Portfolio","Contact","About"]
 
   return (
     <motion.div className='links' variants={variants}>
       {itemsLink.map((item)=> (
-        <motion.a href={`#${item}`} key={item} variants={itemVariants}>{item}</motion.a>
+        <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale: 1.1}} whileTap={{scale:0.95}}>{item}</motion.a>
       ))}  
     </motion.div>
   )
