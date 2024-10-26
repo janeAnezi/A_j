@@ -110,11 +110,12 @@ section {
 
 // ****** Hero section styles ******
 .hero {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 45px);
     overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132); 
     position: relative;
-    // margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
     z-index: -1;
 
 
@@ -122,6 +123,19 @@ section {
         width: 950px;
         height: 100%;
         margin: auto;
+
+        .textContainer {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            .scroll {
+                font-size: 35px;
+                color: gray;
+            }
+        }
        
     }
     .imageContainer {
@@ -131,7 +145,8 @@ section {
 
 
         img {
-            width: 950px;
+            width: 1100px;
+            margin-left: 15%;
         }
     }
 }
