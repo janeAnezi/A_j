@@ -10,7 +10,7 @@ export default function NavBar() {
               initial={{opacity: 0, scale: 0.5}}
               animate={{opacity: 1, scale: 1}}
               transition={{duration: 0.5}}
-            >Anezi_Jane</motion.span>
+            >A_J</motion.span>
             <div className="social">
                 <a href="https://github.com/janeAnezi?tab=repositories" target="_blank" rel="noopener noreferrer"><img src="/images/github.jpeg" alt="a facebook icon" /></a>
                 <a href="https://x.com/AhnnieA" target="_blank" rel="noopener noreferrer"><img src="/images/twitter.png" alt="a twitter icon" /></a>

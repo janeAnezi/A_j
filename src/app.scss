@@ -130,6 +130,17 @@ section {
             flex-direction: column;
             justify-content: center;
             gap: 40px;
+            width: 50%;
+
+            h2{
+                font-size: 20px;
+                color: rebeccapurple;
+                letter-spacing: 10px;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
 
             .scroll {
                 font-size: 35px;
