@@ -1,5 +1,6 @@
 import Hero from "./Components/Hero"
 import NavBar from "./Components/NavBar"
+import Parallax from "./Components/Parallax"
 import "./app.scss"
 
 
@@ -10,9 +11,9 @@ function App() {
         <NavBar />
         <Hero />
       </section>
-      <section id="Services">Parallax</section>
+      <section id="Services"><Parallax type="services" /></section>
       <section>Services</section>
-      <section id="Portfolio">Parallax</section>
+      <section id="Portfolio"><Parallax type="portfolio" /></section>
       <section>Portfolio1</section>
       <section>Portfolio2</section>
       <section>Portfolio3</section>
