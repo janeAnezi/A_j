@@ -142,6 +142,23 @@ section {
                 font-size: 50px;
             }
 
+            .buttons {
+                button{
+                    padding: 10px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: white;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    // transition: transform 0.2s;
+
+                    // &:hover {
+                    //  transform: scale(1.1);
+                    // }
+                }
+            }
+
             .scroll {
                 font-size: 35px;
                 color: gray;
@@ -159,5 +176,13 @@ section {
             width: 1100px;
             margin-left: 15%;
         }
+    }
+
+    .slidingTextContainer {
+        position: absolute ;
+        font-size: 30vw;
+        bottom: -120px;
+        white-space: nowrap;
+        color: #ffffff09;
     }
 }
