@@ -13,6 +13,14 @@ const TextVariants = {
             duration: 1,
             staggerChildren: 0.1,
         }
+    },
+    scrollButton: {
+        opacity: 0,
+        y: 10,
+        transition: {
+            duration: 2,
+            repeat: Infinity
+        }
     }
 }
 
@@ -44,7 +52,9 @@ export default function Hero() {
                     <motion.button variants={TextVariants}>See my Latest Works</motion.button>
                     <motion.button variants={TextVariants}>Contact Me</motion.button>
                 </motion.div>
-                <RiScrollToBottomLine className="scroll" variants={TextVariants}/>
+                <motion.span variants={TextVariants} animate="scrollButton">
+                    <RiScrollToBottomLine className="scroll"/>
+                </motion.span>
             </motion.div>
         </div>
         <marquee className="slidingTextContainer">
